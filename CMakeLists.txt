@@ -74,7 +74,6 @@ add_executable(TemplateApp src/main.c)  # Replace src/main.cpp with your main so
 
 target_include_directories(TemplateApp PRIVATE
     ${FREERTOS_KERNEL_PATH}/include
-    #${FREERTOS_KERNEL_PATH}/portable/GCC/ARM_CM0
     ${FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040  
     ../include  # Path to your FreeRTOSConfig.h file
 )

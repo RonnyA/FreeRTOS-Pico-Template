@@ -67,7 +67,7 @@
 /* Hook function related definitions. */
 #define configUSE_IDLE_HOOK                     0
 #define configUSE_TICK_HOOK                     0
-#define configCHECK_FOR_STACK_OVERFLOW          0
+#define configCHECK_FOR_STACK_OVERFLOW          2           // Set back to 0 when done debugging
 #define configUSE_MALLOC_FAILED_HOOK            0
 #define configUSE_DAEMON_TASK_STARTUP_HOOK      0
 
@@ -126,6 +126,7 @@ to exclude the API function. */
 #define configSUPPORT_PICO_SYNC_INTEROP       0
 #define configSUPPORT_PICO_TIME_INTEROP       0
 
+#define configUSE_HEAP_SCHEME                 4
 #define configTOTAL_HEAP_SIZE                (10 * 1024)  // Adjust the size as needed (for dynamic allocation)
 
 /*

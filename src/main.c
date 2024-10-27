@@ -90,3 +90,11 @@ void main( void )
 	for( ;; );
 }
 
+void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName) {
+    // Handle stack overflow (e.g., log an error or enter an infinite loop)
+    printf("Stack overflow detected in task: %s\n", pcTaskName);
+
+    // Optionally, stop execution here for debugging
+    taskDISABLE_INTERRUPTS();
+    for (;;) {}  // Halt the program to facilitate debugging
+}
