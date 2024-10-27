@@ -8,7 +8,7 @@
 
 I am unsure what the difference is, but have chosen option 2
 
-** Use FreeRTOS source code from FreeRTOS home 
+### 1 - Use FreeRTOS source code from FreeRTOS home 
 
 [FreeRTOS GitHub repo](https://github.com/FreeRTOS/FreeRTOS-Kernel)
 
@@ -17,8 +17,7 @@ cd external
 git submodule add https://github.com/FreeRTOS/FreeRTOS-Kernel.git 
 ```
 
-
-** Use FreeRTOS source code from Raspberry Pi's GitHub repo. 
+### 2- Use FreeRTOS source code from Raspberry Pi's GitHub repo. 
 
 [Raspberry Pi GitHub repo](https://github.com/raspberrypi/FreeRTOS-kernel)
 
