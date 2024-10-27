@@ -8,7 +8,7 @@ Hopefully this can save some time in my later projects.
 ```text
 /
 |
-|___/src                    // Main src code directoru
+|___/src                    // Main src code directory
 |   
 |___/include
 |   |___FreeRTOSConfig.h    // FreeRTOS project config file
@@ -19,7 +19,7 @@ Hopefully this can save some time in my later projects.
 |
 |
 |___.gitmodules             // Definition for Submodules (FreeRTOS)
-|___install.txt             // Description on how to manually add submodule
+|___install.md              // Description on how to manually add FreeRTOS submodule
 |___CMakeLists.txt          // Top-level project CMake config file
 |___pico_sdk_import.cmake   // Raspberry Pi Pico SDK CMake import script
 |
